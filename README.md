@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/CallMe-AL/fementor-room-homepage)
+- Live Site URL: [Github site](https://callme-al.github.io/fementor-room-homepage/)
 
 ## My process
 
