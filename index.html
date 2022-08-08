@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="Frontend Mentor slide challenge using CSS grid, flex, and fetch.">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="app.css">
+  <title>Frontend Mentor | Room homepage</title>
+</head>
+<body>
+  
+  <nav class="main-nav flex">
+    <button class="nav-btn" aria-label="open nav links">
+      <img class="nav-btn-img" src="images/icon-hamburger.svg" alt="icon hamburger">
+    </button>  
+    <div class="logo">room</div>
+    <ul class="nav-links desktop">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Shop</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+    <!-- mobile links -->
+    <ul class=" nav-links nav-links-mobile">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Shop</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="scroll-container">
+      <!-- slide 1 -->
+      <section class="scroll-section main-section active">
+        <picture class="img-container">
+          <source class="desktop-img" media="(min-width: 700px)" srcset="images/desktop-image-hero-1.jpg">
+          <img class="scroll-img mobile-img" src="images/mobile-image-hero-1.jpg" alt="chairs and a nice plant">
+          <div class="scroll-btns mobile">
+            <button class="scroll-left">
+              <img src="images/icon-angle-left.svg" alt="chevron left" class="scroll-img icon-left-img">
+            </button>
+            <button class="scroll-right">
+              <img src="images/icon-angle-right.svg" alt="chevron right" class="scroll-img icon-right-img">
+            </button>
+          </div>
+        </picture>
+        <div class="sec-info-cont">
+          <h1 class="sec-info-h1">No data :(</h1>
+          <p class="sec-info-p">No data :(</p>
+          <a href="#">Shop now <img src="images/icon-arrow.svg" alt="icon arrow"></a>
+          <div class="scroll-btns desktop">
+            <button class="scroll-left">
+              <img src="images/icon-angle-left.svg" alt="chevron left" class="scroll-img icon-left-img">
+            </button>
+            <button class="scroll-right">
+              <img src="images/icon-angle-right.svg" alt="chevron right" class="scroll-img icon-right-img">
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- about section -->
+    <section class="about-section">
+      <img src="images/image-about-dark.jpg" alt="about image" class="about-img dark-about-img">
+      <div class="about-info">
+        <h2>About our furniture</h2>
+        <p>Our multifunctional collection blends design and function to suit your individual taste.
+      Make each room unique, or pick a cohesive theme that best express your interests and what
+      inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+      or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+      <img class="about-img light-about-img" src="images/image-about-light.jpg" alt="chair with white overlay">
+    </section>  
+  </main>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/CallMe-AL">@CallMe-Al</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
