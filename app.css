@@ -161,7 +161,7 @@ a {
   align-items: center;
   justify-content: flex-end;
   gap: clamp(1rem, 3vw, 3rem);
-  transition: top 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
 }
 
 .nav-links-mobile.open {
