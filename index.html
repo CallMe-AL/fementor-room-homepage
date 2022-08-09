@@ -50,9 +50,11 @@
     <div class="scroll-container">
       <!-- slide 1 -->
       <section class="scroll-section main-section active">
-        <picture class="img-container">
-          <source class="desktop-img" media="(min-width: 700px)" srcset="images/desktop-image-hero-1.jpg">
-          <img class="scroll-img mobile-img" src="images/mobile-image-hero-1.jpg" alt="chairs and a nice plant">
+        <div class="img-container">
+          <picture>
+            <source class="scroll-img desktop-img" media="(min-width: 700px)" srcset="images/desktop-image-hero-1.jpg">
+            <img class="scroll-img mobile-img" src="images/mobile-image-hero-1.jpg" alt="chairs and a nice plant">
+          </picture>
           <div class="scroll-btns mobile">
             <button class="scroll-left">
               <img src="images/icon-angle-left.svg" alt="chevron left" class="scroll-img icon-left-img">
@@ -61,7 +63,7 @@
               <img src="images/icon-angle-right.svg" alt="chevron right" class="scroll-img icon-right-img">
             </button>
           </div>
-        </picture>
+        </div>
         <div class="sec-info-cont">
           <h1 class="sec-info-h1">No data :(</h1>
           <p class="sec-info-p">No data :(</p>
@@ -92,10 +94,10 @@
   </main>
   
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/profile/CallMe-AL">@CallMe-Al</a>.
-  </div>
+  </footer>
   <script src="app.js"></script>
 </body>
 </html>

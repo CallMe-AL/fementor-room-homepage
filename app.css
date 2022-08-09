@@ -187,12 +187,13 @@ a {
     width: auto;
     justify-content: flex-start;
     left: 5%;
+    top: 1rem;
   }
 
   .nav-links.desktop {
     display: flex;
     gap: clamp(2rem, 4vw, 5rem);
-    padding-left: clamp(4rem, 6vw, 7rem);
+    padding-left: clamp(2rem, 5vw, 4rem);
   }
 
   .nav-btn {
@@ -269,6 +270,10 @@ a {
 .sec-info-cont a img {
   transform: translateY(-20%);
   margin-left: clamp(1rem, 3vw, 4rem);
+}
+
+.img-container picture {
+  height: 100%;
 }
 
 .scroll-img {
